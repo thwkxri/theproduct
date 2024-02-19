@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="img/favicon-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест по веб-разработке</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="head-center">
+      <h1 class="head-text">Тест по веб-разработке</h1>
+      <img class="head-img" src="img/png-head.png" alt="">
+      <p class="info-text">Тест по веб-разработке: HTML, CSS, JS и т.д. За каждый правильный ответ дается 1 балл.<br>
+        После выбора ответа на каждый вопрос - нажать на кнопку "Проверить", чтобы узнать количество баллов.<br>Чтобы
+        начать тест - нажмите кнопку "Начать тест".
+      </p>
+
+      <button onclick="startTest();" id="start-button">Начать тест</button>
+    </div>
+
+
+    <div class="questions">
+      <p class="question">1. Какой шаг является первым в начале создания сайта?</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q1">Анализ и планирование</p>
+        <p class="answer"><INPUT type="radio" name="q1">Написание кода</p>
+        <p class="answer"><INPUT type="radio" name="q1">Создание макета сайта</p>
+        <p class="answer"><INPUT type="radio" name="q1">Тестирование и оптимизация</p>
+      </div>
+
+      <br>
+
+      <p class="question">2. Веб-разработчики делятся на 3 типа. Выберите лишний</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q2">Frontend</p>
+        <p class="answer"><INPUT type="radio" name="q2">Backend</p>
+        <p class="answer"><INPUT type="radio" name="q2">Sitestack</p>
+        <p class="answer"><INPUT type="radio" name="q2">Fullstack</p>
+      </div>
+
+      <br>
+
+      <p class="question">3. Из чего состоит сайт?</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q3">Из серверов</p>
+        <p class="answer"><INPUT type="radio" name="q3">Из взаимосвязанных веб-страниц</p>
+        <p class="answer"><INPUT type="radio" name="q3">Из подключенных к друг другу компютеров</p>
+        <p class="answer"><INPUT type="radio" name="q3">Из интернет-связи</p>
+      </div>
+
+      <br>
+
+      <p class="question">4. Выберите несуществующий протокол
+      </p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q4">HTTP</p>
+        <p class="answer"><INPUT type="radio" name="q4">TCP</p>
+        <p class="answer"><INPUT type="radio" name="q4">TIPPS</p>
+        <p class="answer"><INPUT type="radio" name="q4">HTTPS</p>
+      </div>
+
+
+      <br>
+
+      <p class="question">5. Какой из этих языков служит для создания структуры веб-страниц?
+      </p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q5">Python</p>
+        <p class="answer"><INPUT type="radio" name="q5">JavaScript</p>
+        <p class="answer"><INPUT type="radio" name="q5">HTML</p>
+        <p class="answer"><INPUT type="radio" name="q5">CSS</p>
+      </div>
+
+      <br>
+
+      <p class="question">6. Какой язык используется для стилизации веб-страниц?</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q6">CSS</p>
+        <p class="answer"><INPUT type="radio" name="q6">PHP</p>
+        <p class="answer"><INPUT type="radio" name="q6">JavaScript</p>
+        <p class="answer"><INPUT type="radio" name="q6">Python</p>
+      </div>
+
+      <br>
+
+      <p class="question">7. Какой язык добавляет интерактивность на веб-страницу?</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q7">JavaScript</p>
+        <p class="answer"><INPUT type="radio" name="q7">Python</p>
+        <p class="answer"><INPUT type="radio" name="q7">Ruby</p>
+        <p class="answer"><INPUT type="radio" name="q7">CSS</p>
+      </div>
+
+      <br>
+
+      <p class="question">8. Выберите язык программирования, которые НЕ используется в веб-разработке</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q8">Python</p>
+        <p class="answer"><INPUT type="radio" name="q8">PHP</p>
+        <p class="answer"><INPUT type="radio" name="q8">Kotlin</p>
+        <p class="answer"><INPUT type="radio" name="q8">SQL</p>
+      </div>
+
+      <br>
+
+      <p class="question">9. Какой тип разработчиков отвечает за создание интерфейса сайта?</p>
+      <div class="answers">
+        <p class="answer"><INPUT type="radio" name="q9">Backend</p>
+        <p class="answer"><INPUT type="radio" name="q9">Gamedev</p>
+        <p class="answer"><INPUT type="radio" name="q9">UX-дизайнеры</p>
+        <p class="answer"><INPUT type="radio" name="q9">Frontend</p>
+      </div>
+
+      <br>
+
+
+      <div class="last-question">
+        <p class="question">10. Средняя зарплата frontend-разработчика по вашему мнению?</p>
+        <div class="answers">
+          <p class="answer"><INPUT type="radio" name="q10">120 000&#8381;</p>
+          <p class="answer"><INPUT type="radio" name="q10">30 000&#8381;</p>
+          <p class="answer"><INPUT type="radio" name="q10">80 000&#8381;</p>
+          <p class="answer"><INPUT type="radio" name="q10">50 000&#8381;</p>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div class="check-score">
+        <button id="check-button" onclick="web_test();">Проверить</button>
+        <p id="score">Правильных ответов: 0/10 </p>
+      </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(to right, #FFCCCC, #99CCFF);
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.head-center {
+  text-align: center;
+}
+
+.head-text {
+  font-size: 40px;
+}
+
+.head-img {
+  width: 800px;
+  height: 400px;
+  border-bottom: 3px solid black;
+}
+
+.info-text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#start-button {
+  color: black;
+  width: 300px;
+  height: 85px;
+  background: #FFCCCC;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.questions {
+
+  width: 100%;
+  border-top: 2px solid black;
+  margin-top: 40px;
+  display: none;
+  text-align: center;
+}
+
+.question {
+  margin: auto;
+  text-align: justify;
+  padding-top: 40px;
+  font-size: 22px;
+  text-align: left;
+
+}
+
+.answers {
+
+
+  width: 100%;
+
+  font-size: 20px;
+  padding-top: 20px;
+
+}
+
+.answer {
+
+  
+
+  font-weight: 400;
+
+}
+
+p {
+  font-weight: bold;
+}
+
+.check-score {
+  padding-top: 20px;
+}
+
+#check-button {
+  color: black;
+  width: 225px;
+  height: 85px;
+  font-size: 22px;
+  background-color: #FFCCCC;
+  transition: background-color 0.2s ease;
+}
+
+#score {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.last-question {
+  margin: auto;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+#start-button:hover {
+  background-color: #ffb3b3;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+#check-button:hover {
+  background-color: #ffb3b3;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+@media(max-width: 1100px) {
+  .head-img {
+    height: 400px;
+    width: 80%;
+  }
+}
+
+@media(max-width: 599px) {
+  .head-img {
+    height: 300px;
+    width: 80%;
+  }
+
+  .answers {
+
+    width: 100%;
+    text-align: left;
+
+  }
+
+  .answer {
+
+    width: 100%;
+    text-align: left;
+
+  }
+} 
+
+
+  .answers {
+
+    width: 100%;
+    text-align: left;
+
+  }
+
+  .answer {
+
+    width: 100%;
+    text-align: left;
+
+  }
